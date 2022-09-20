@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header .max-width-wrapper {
+  max-width: 30rem;
+}
+
+.intro-chunk {
+  padding: 4rem 5rem;
+}
+
+.light-green {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.background-card {
+  border-top: 8px solid hsl(0deg, 0%, 30%);
+  background-color: hsl(0, 0%, 60%);
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+.card {
+  padding: 1rem;
+  background-color: white;
+  max-width: 500px;
+  margin: 5rem auto;
+  border-bottom: 8px solid hsl(0deg, 0%, 30%);
+}
+
+.indented-heading {
+  margin: -10px 0 0 -25px;
+  background-color: hsl(45deg, 100%, 50%);
+  width: fit-content;
+  padding: 8px 16px;
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}

@@ -14,7 +14,8 @@ header .max-width-wrapper {
 }
 
 .intro-chunk {
-  padding: 4rem 5rem;
+  padding: 1rem;
+  margin: 2rem auto;
 }
 
 .light-green {
@@ -22,24 +23,29 @@ header .max-width-wrapper {
 }
 
 .background-card {
+  padding-bottom: 1rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
   border-top: 8px solid hsl(0deg, 0%, 30%);
   background-color: hsl(0, 0%, 60%);
-  padding-bottom: 1rem;
-  margin-bottom: 3rem;
 }
 
 .card {
   padding: 1rem;
   background-color: white;
   max-width: 500px;
-  margin: 5rem auto;
+  margin: 3rem auto;
   border-bottom: 8px solid hsl(0deg, 0%, 30%);
 }
 
 .indented-heading {
-  margin: -10px 0 0 -25px;
+  margin: -10px 0 8px -24px;
   background-color: hsl(45deg, 100%, 50%);
   width: fit-content;
-  padding: 8px 16px;
+  padding: 8px 24px;
   border-bottom: 8px solid hsl(45deg, 100%, 40%);
 }

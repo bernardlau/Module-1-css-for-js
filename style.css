@@ -15,7 +15,7 @@ header .max-width-wrapper {
 
 .intro-chunk {
   padding: 1rem;
-  margin: 5rem auto;
+  margin: 2rem auto;
 }
 
 .light-green {
@@ -24,10 +24,12 @@ header .max-width-wrapper {
 
 .background-card {
   padding-bottom: 1rem;
-  margin-bottom: 3rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.background-card section {
+main {
   border-top: 8px solid hsl(0deg, 0%, 30%);
   background-color: hsl(0, 0%, 60%);
 }
@@ -36,7 +38,7 @@ header .max-width-wrapper {
   padding: 1rem;
   background-color: white;
   max-width: 500px;
-  margin: 5rem auto;
+  margin: 3rem auto;
   border-bottom: 8px solid hsl(0deg, 0%, 30%);
 }
 
